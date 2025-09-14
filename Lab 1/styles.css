@@ -1,0 +1,42 @@
+:root { 
+  --fg:#eaeaea; 
+  --bg:#0b0b0f; 
+  --accent:#7aa2f7; 
+}
+
+* { box-sizing:border-box; }
+
+html, body { 
+  margin:0; 
+  padding:0; 
+  background:var(--bg); 
+  color:var(--fg); 
+  font:16px/1.5 Arial, sans-serif; 
+}
+
+a { 
+  color: var(--accent); 
+}
+
+.container { 
+  max-width: 800px; 
+  margin: 2rem auto; 
+  padding: 1.5rem; 
+  background: #11131a; 
+  border-radius: 12px; 
+}
+
+h1 { 
+  margin-top: 0; 
+}
+
+ul.shows { 
+  list-style: square; 
+  padding-left: 1.25rem; 
+}
+
+ol.fizzbuzz { 
+  columns: 3 200px; 
+  column-gap: 2rem; 
+  padding-left: 1.25rem; 
+}
