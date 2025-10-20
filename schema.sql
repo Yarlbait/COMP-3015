@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS groceries_web_app;
+USE groceries_web_app;
+
+CREATE TABLE IF NOT EXISTS inventory
+(
+  id         INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  item_name  VARCHAR(255) NOT NULL,
+  quantity   INT UNSIGNED NOT NULL DEFAULT 0,
+  PRIMARY KEY (id)
+);
