@@ -1,0 +1,22 @@
+{
+    "name": "newco/fileservice",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "NewCo\\FileGateway\\": "src/",
+            "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christian Fenn",
+            "email": "christianhfenn@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/routing": "^7.1",
+        "symfony/http-foundation": "^7.1",
+        "symfony/http-kernel": "^7.1",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
