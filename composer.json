@@ -1,0 +1,16 @@
+{
+    "name": "cfenn/lab-5-starter-kit",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Christian Fenn",
+            "email": "christian_fenn@bcit.ca"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "6.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
